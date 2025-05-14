@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="flex items-center justify-center mb-6">
           <a
             className="inline-block mx-2"
-            href="https://twitter.com/GilbertHutapeaa"
+            href="https://x.com/Bhushan12364318"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -21,7 +21,7 @@ const Footer = () => {
           </a>
           <a
             className="inline-block mx-2"
-            href="https://linkedin.com/in/gilberthutapea"
+            href="https://www.linkedin.com/in/bhushan-pandagre"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -29,7 +29,7 @@ const Footer = () => {
           </a>
           <a
             className="inline-block mx-2"
-            href="https://www.github.com/berthutapea"
+            href="https://github.com/BhushanPandagre"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -37,7 +37,7 @@ const Footer = () => {
           </a>
           <a
             className="inline-block mx-2"
-            href="https://www.instagram.com/bethup97/"
+            href="https://www.instagram.com/bhushanpandagre"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -45,54 +45,16 @@ const Footer = () => {
           </a>
         </div>
         <div className="hidden  md:flex items-center justify-center mb-6 flex-wrap">
+         
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
-            href="https://www.fiverr.com/berthutapea"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Fiverr
-          </a>
-          <a
-            className="text-xl inline-bloc mx-6 text-neutral"
-            href="https://www.upwork.com/freelancers/~0171c0d54d5dea86ec"
+            href="https://www.upwork.com/freelancers/~01e14e5246b7939a1a?viewMode=1"
             target="_blank"
             rel="noopener noreferrer"
           >
             UpWork
           </a>
-          <a
-            className="text-xl inline-bloc mx-6 text-neutral"
-            href="http://freelancer.com/u/berthutapea"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Freelancer
-          </a>
-          <a
-            className="text-xl inline-bloc mx-6 text-neutral"
-            href="https://themeforest.net/user/berthutapea"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            ThemeForest
-          </a>
-          <a
-            className="text-xl inline-bloc mx-6 text-neutral"
-            href="https://remotehub.com/gilbert.hutapea"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            RemoteHub
-          </a>
-          <a
-            className="text-xl inline-bloc mx-6 text-neutral"
-            href="https://dribbble.com/berthutapea"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Dribbble
-          </a>
+         
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
               href="https://drive.google.com/file/d/1hrpCpHSg7fEEL9rLsdg72hQ9etpXwmDp/view?usp=drive_link"
@@ -109,11 +71,11 @@ const Footer = () => {
           <p>
             Developed by{" "}
             <a
-              href="https://linkedin.com/in/gilberthutapea"
+              href="https://www.linkedin.com/in/bhushan-pandagre"
               className="text-primary hover:underline"
               target="blank"
             >
-              Gilbert Hutapea
+              Bhushan Pandagre
             </a>
           </p>
         </div>
