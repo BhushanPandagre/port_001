@@ -10,7 +10,7 @@ const Reviews = [
   },
   {
     id: 2,
-    name: "Ilham Wahyu Budiaji",
+    name: "Rupesh Khandagre",
     bio: "Front-end Developer",
     img: "https://i.ibb.co/dKYnQM8/ilham.jpg",
     description:

@@ -1,5 +1,4 @@
 
-
 import React from "react";
 import TypeAnimation from "react-type-animation";
 import { motion } from "framer-motion";
@@ -102,7 +101,7 @@ const About = () => {
               <span className="font-medium text-primary">Email:</span> pandagrebhushan3@gmail.com
             </h2>
             <h2>
-              <span className="font-medium text-primary">Address:</span> Nanda Nagar Indore 
+              <span className="font-medium text-primary">Address:</span> Nanda Nagar Indore
             </h2>
           </div>
 

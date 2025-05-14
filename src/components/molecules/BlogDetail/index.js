@@ -1,6 +1,4 @@
 
-
-
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import blogs from "../../../Utils/blogs";
@@ -61,12 +59,12 @@ const BlogDetail = () => {
               <p className="flex items-center gap-3 mb-2">
                 <SiInstagram />
                 <a
-                  href={blog.instagram_link}
+                  href={blog.github_link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:underline flex items-center"
                 >
-                  <span>Instagram</span> <FiExternalLink />
+                  <span>Github</span> <FiExternalLink />
                 </a>
               </p>
             )}
