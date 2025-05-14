@@ -45,7 +45,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="hidden  md:flex items-center justify-center mb-6 flex-wrap">
-         
+
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
             href="https://www.upwork.com/freelancers/~01e14e5246b7939a1a?viewMode=1"
@@ -54,10 +54,10 @@ const Footer = () => {
           >
             UpWork
           </a>
-         
+
           <a
             className="text-xl inline-bloc mx-6 text-neutral"
-              href="https://drive.google.com/file/d/1hrpCpHSg7fEEL9rLsdg72hQ9etpXwmDp/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1hrpCpHSg7fEEL9rLsdg72hQ9etpXwmDp/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
