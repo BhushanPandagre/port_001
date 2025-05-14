@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import blogs from "../../../Utils/blogs";
 import { FiExternalLink } from "react-icons/fi";
-import { SiLinkedin, SiInstagram } from "react-icons/si";
+import { SiLinkedin, SiGithub } from "react-icons/si";
 import {
   EmailShareButton,
   EmailIcon,
@@ -55,9 +55,9 @@ const BlogDetail = () => {
         <div className="md:col-span-2 lg:col-span-1 px-4 py-6 rounded shadow-lg">
           <div>
             <h4 className="text-lg font-medium mb-3">Other:</h4>
-            {blog.instagram_link && (
+            {blog.github_link && (
               <p className="flex items-center gap-3 mb-2">
-                <SiInstagram />
+                <SiGithub />
                 <a
                   href={blog.github_link}
                   target="_blank"
@@ -119,7 +119,7 @@ const BlogDetail = () => {
                   </button>
                 ))}
               </div>
-            </>
+            </> 
           )}
         </div>
       </div>

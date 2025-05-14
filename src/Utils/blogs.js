@@ -3,7 +3,7 @@ const blogs = [
     _id: 1,
     title: "Getting to Know the Metaverse and How It Influences Life",
     path: "know-metaverse",
-    date: "10 September 2022",
+    date: "10 September 2024",
     img: "https://www.hdwallpapers.in/download/smart_city_cyberspace_metaverse_digital_building_art_futuristic_image_hd_vaporwave-HD.jpg",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
@@ -17,7 +17,7 @@ const blogs = [
     _id: 2,
     title: "Know the Difference Between Front End and Back End Developer",
     path: "know-fronted-backend-developer",
-    date: "20 September 2022",
+    date: "20 September 2023",
     img: "https://www.rasmussen.edu/images/rasmussenlibraries/blogs/front-end-vs-back-end-spectrum1c4d3729-3211-40f9-8315-29d9770c2b59.jpg",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
@@ -30,7 +30,7 @@ const blogs = [
     _id: 3,
     title: "Get to know what a Proxy Server is & how it works",
     path: "know-proxy-server",
-    date: "25 September 2022",
+    date: "25 September 2023",
     img: "https://www.techbuyer.com/media/wysiwyg/Proxy_Server_Diagram_2_.png",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
@@ -43,7 +43,7 @@ const blogs = [
     _id: 4,
     title: "Get to know Big Data Technology to Optimize Your Business",
     path: "know-big-data",
-    date: "06 November 2022",
+    date: "06 November 2024",
     img: "https://media.istockphoto.com/id/1465723262/photo/big-data-technology-and-data-science-data-scientist-querying-analysing-and-visualizing.jpg?s=612x612&w=0&k=20&c=dJZ_EP5uyf74aLMem2tCB3dfDmDdeu2AQPKHBtFSAek=",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
@@ -56,7 +56,7 @@ const blogs = [
     _id: 5,
     title: "Why the Internet of Things (IoT) Will Be The Biggest Technology Trend In The Future",
     path: "internet-of-things",
-    date: "09 November 2022",
+    date: "09 November 2023",
     img: "https://img.securityinfowatch.com/files/base/cygnus/siw/image/2021/10/bigstock_Internet_Of_Things__Iot_Conce_413663834.6165ebd7685e3.png?auto=format,compress&fit=max&q=45&w=640&width=640",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
@@ -69,7 +69,7 @@ const blogs = [
     _id: 6,
     title: "How Cloud Computing Technology Helps Increase Business Efficiency",
     path: "cloud-computing",
-    date: "12 November 2022",
+    date: "12 November 2024",
     img: "https://euro-systems.co.uk/wp-content/uploads/2024/09/Cloud-Computing-History-1.png",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
@@ -82,7 +82,7 @@ const blogs = [
     _id: 7,
     title: "Get to know AI (Artificial Intelligence) and Its Role in the World of Technology",
     path: "know-artificial-intelligence",
-    date: "15 November 2022",
+    date: "15 November 2023",
     img: "https://online.jwu.edu/wp-content/uploads/2024/03/JWU_March_Applications_AI.jpg",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
@@ -95,7 +95,7 @@ const blogs = [
     _id: 8,
     title: "Get to know what CMS is, its benefits & how it works",
     path: "know-cms",
-    date: "28 November 2022 ",
+    date: "28 November 2023 ",
     img: "https://www.cloudways.com/blog/wp-content/uploads/CMS-Platforms.jpg",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
@@ -108,7 +108,7 @@ const blogs = [
     _id: 9,
     title: "Get to know Node Js",
     path: "know-nodejs",
-    date: "30 November 2022",
+    date: "30 November 2024",
     img: "https://s3-eu-west-1.amazonaws.com/blog.forestadmin.com/2021/09/FA-article-nodeJS@2x-1-.png",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
@@ -121,7 +121,7 @@ const blogs = [
     _id: 10,
     title: "Get to Know What React Works & Its Advantages",
     path: "know-react",
-    date: "12 January 2023",
+    date: "12 January 2025",
     img: "https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/5992673/cover_image/retina_1708x683/1005_Design-Patterns-in-React_Cover-44247834a5b31e8d08e5bbbdac4a6750.png",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
@@ -134,7 +134,7 @@ const blogs = [
     _id: 11,
     title: "Get to Know What Express JS Works & Its Strengths",
     path: "know-expressjs",
-    date: "28 January 2023",
+    date: "28 January 2025",
     img: "https://externlabs.com/blogs/wp-content/uploads/2021/11/ExpressJS-Library.jpg",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
@@ -147,7 +147,7 @@ const blogs = [
     _id: 12,
     title: "Get to Know What MongoDB Works & Its Strengths",
     path: "know-mongodb",
-    date: "10 February 2023",
+    date: "10 February 2025",
     img: "https://webimages.mongodb.com/_com_assets/cms/kuztefjfmcr54smwt-Meta_Blogs.png",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
@@ -160,7 +160,7 @@ const blogs = [
     _id: 13,
     title: "Get to Know What Redux Works & Its Strengths",
     path: "know-redux",
-    date: "23 February 2023",
+    date: "23 February 2025",
     img: "https://miro.medium.com/v2/resize:fit:1400/1*7nLBkCmTiyXKFMk4fVCVqw.jpeg",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
@@ -173,7 +173,7 @@ const blogs = [
     _id: 14,
     title: "Get to Know What Next JS Works & Its Strengths",
     path: "know-nextjs",
-    date: "09 March 2023",
+    date: "09 March 2025",
     img: "https://mobisoftinfotech.com/resources/wp-content/uploads/2022/04/next-JS-framework.png",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
@@ -186,7 +186,7 @@ const blogs = [
     _id: 15,
     title: "Introduction to MERN Stack Developer",
     path: "introduction-to-mern-stack-developer",
-    date: "21 March 2023",
+    date: "21 March 2025",
     img: "https://cdn.servermania.com/kb/KB-MERN-Featured.jpg",
     github_link: "https://github.com/BhushanPandagre",
     linkedin_link:
