@@ -1,5 +1,5 @@
 #loader-container {
-    background-color: #212121;
+    background-color: #1e1e2f;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@
     z-index: 999999;
 }
 
-/* Start::Loader  */
+/* Loader Box */
 .loading {
     display: flex;
     align-items: center;
@@ -19,135 +19,110 @@
     height: 160px;
     width: 170px;
     position: relative;
-    margin: 0px;
-    padding: 0px;
 }
 
+/* Common Circle Style */
 .loading_circle {
     border: 5px transparent solid;
     position: absolute;
     width: 100px;
     height: 100px;
-    border-radius: 69%;
+    border-radius: 50%;
 }
 
-.loading_blue {
-    top: 0px;
-    border-top: 5px lightblue solid;
-    animation-delay: 4s;
-    animation: blue_animation 1.5s infinite;
+/* Purple Ring */
+.loading_purple {
+    top: 0;
+    border-top: 5px #a864ff solid;
+    animation: purple_spin 1.5s linear infinite;
 }
-
-.loading_blue:after {
-    position: absolute;
+.loading_purple:after,
+.loading_purple:before {
     content: "";
+    position: absolute;
+    background: #a864ff;
+    border-radius: 50%;
+    box-shadow: 0 0 12px #a864ff;
+}
+.loading_purple:after {
     width: 10px;
     height: 10px;
-    background: lightblue;
-    border-radius: 69%;
     right: 5px;
     top: 10px;
-    box-shadow: 0px 0px 20px lightblue;
 }
-
-.loading_blue:before {
-    content: " ";
+.loading_purple:before {
     width: 5px;
     height: 5px;
-    position: absolute;
-    background: lightblue;
-    top: 8.8px;
-    left: 9px;
-    border-radius: 69%;
+    top: 9px;
+    left: 10px;
 }
 
-.loading_coral {
-    left: 0px;
-    bottom: 0px;
-    border-top: 5px #FD5857 solid;
-    animation: coral_animation 1.5s infinite;
+/* Cyan Ring */
+.loading_cyan {
+    left: 0;
+    bottom: 0;
+    border-top: 5px #00f2fe solid;
+    animation: cyan_spin 1.5s linear infinite;
 }
-
-.loading_coral:after {
-    position: absolute;
+.loading_cyan:after,
+.loading_cyan:before {
     content: "";
+    position: absolute;
+    background: #00f2fe;
+    border-radius: 50%;
+    box-shadow: 0 0 12px #00f2fe;
+}
+.loading_cyan:after {
     width: 10px;
     height: 10px;
-    background: #FD5857;
-    border-radius: 69%;
     right: 5px;
     top: 10px;
-    box-shadow: 0px 0px 20px #FD5857;
 }
-
-.loading_coral:before {
-    content: " ";
+.loading_cyan:before {
     width: 5px;
     height: 5px;
-    position: absolute;
-    background: #FD5857;
-    top: 8.8px;
-    left: 9px;
-    border-radius: 69%;
+    top: 9px;
+    left: 10px;
 }
 
-.loading_orange {
-    right: 0px;
-    bottom: 0px;
-    border-top: 5px #F79D41 solid;
-    animation: orange_animation 1.5s infinite;
+/* Pink Ring */
+.loading_pink {
+    right: 0;
+    bottom: 0;
+    border-top: 5px #ff6fd8 solid;
+    animation: pink_spin 1.5s linear infinite;
 }
-
-.loading_orange:after {
-    position: absolute;
+.loading_pink:after,
+.loading_pink:before {
     content: "";
+    position: absolute;
+    background: #ff6fd8;
+    border-radius: 50%;
+    box-shadow: 0 0 12px #ff6fd8;
+}
+.loading_pink:after {
     width: 10px;
     height: 10px;
-    background: #F79D41;
-    border-radius: 69%;
     right: 5px;
     top: 10px;
-    box-shadow: 0px 0px 20px #F79D41;
 }
-
-.loading_orange:before {
-    content: " ";
+.loading_pink:before {
     width: 5px;
     height: 5px;
-    position: absolute;
-    background: #F79D41;
-    top: 8.8px;
-    left: 9px;
-    border-radius: 69%;
+    top: 9px;
+    left: 10px;
 }
 
-@keyframes blue_animation {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
+/* Keyframes */
+@keyframes purple_spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
-
-@keyframes coral_animation {
-    0% {
-        transform: rotate(240deg);
-    }
-
-    100% {
-        transform: rotate(600deg);
-    }
+@keyframes cyan_spin {
+    0% { transform: rotate(240deg); }
+    100% { transform: rotate(600deg); }
 }
-
-@keyframes orange_animation {
-    0% {
-        transform: rotate(120deg);
-    }
-
-    100% {
-        transform: rotate(480deg);
-    }
+@keyframes pink_spin {
+    0% { transform: rotate(120deg); }
+    100% { transform: rotate(480deg); }
 }
-/* End::Loader */

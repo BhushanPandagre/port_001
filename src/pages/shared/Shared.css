@@ -3,33 +3,42 @@
 .font-lobster {
     font-family: 'Lobster', cursive;
     letter-spacing: 2px;
+    color: #FF8A3D;
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
+/* Responsive padding */
 .parent {
-    padding-right: 8%;
     padding-left: 8%;
+    padding-right: 8%;
 }
 
 @media only screen and (max-width: 600px) {
     .parent {
-        padding-right: 2%;
-        padding-left: 2%;
+        padding-left: 4%;
+        padding-right: 4%;
     }
 }
 
-
+/* Sticky Navbar with Smooth Transition */
 .visible {
     width: 100%;
     position: fixed;
-    top: 0px;
-    z-index: 40;
+    top: 0;
+    z-index: 999;
     height: 4rem;
-    transition: 0.3s linear;
+    background: rgba(33, 33, 33, 0.95);
+    backdrop-filter: blur(10px);
+    transition: top 0.3s ease-in-out, background 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     display: flex;
-    justify-content: stretch;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 2rem;
 }
 
+/* Hide Nav on Scroll Down */
 .nav-hidden {
-    top: -80px;
+    top: -5rem;
 }

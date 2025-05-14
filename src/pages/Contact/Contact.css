@@ -1,30 +1,42 @@
 .input-field {
     display: inline-block;
-    padding: 9px;
-    border-radius: 7px;
-    box-shadow: 0 0 9px 2px #141414;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    box-shadow: inset 0 0 0 transparent;
     margin: 12px 0;
     width: 100%;
-    background-color: #212121;
-    color: gray;
+    background-color: #1E1E1E;
+    color: #F1F1F1;
+    font-size: 16px;
+    transition: all 0.3s ease;
 }
 
 .input-field::placeholder {
-    color: gray;
+    color: #999;
+    opacity: 0.8;
+    font-style: italic;
 }
 
 .input-field:focus {
     outline: none;
-    box-shadow: 0 0 5px 2px #FF651C;
+    background-color: #2A2A2A;
+    border-color: #FF8A3D;
+    box-shadow: 0 0 0 3px rgba(255, 138, 61, 0.3);
+    color: #fff;
 }
 
+/* Autofill handling for Chrome/Safari */
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
     transition:
         background-color 600000s 0s,
         color 600000s 0s;
+    -webkit-text-fill-color: #fff !important;
 }
 
+/* Prevent background flash on autofill */
 input[data-autocompleted] {
-    background-color: transparent !important;
+    background-color: #2A2A2A !important;
+    color: #fff !important;
 }

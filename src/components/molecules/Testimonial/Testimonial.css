@@ -1,24 +1,40 @@
-/* Customize Carousel Dots */
+/* Modern Carousel Dots */
 .slick-dots {
-    display: flex;
+    display: flex !important;
     justify-content: center;
-    list-style-type: none;
+    align-items: center;
+    gap: 10px;
     bottom: -30px !important;
+    padding: 0;
+    list-style: none;
+    z-index: 1;
 }
 
 .slick-dots li {
-    margin: 0 0.25rem;
+    margin: 0;
 }
 
 .slick-dots li button {
-    width: 2px !important;
-    height: 2px !important;
+    width: 14px !important;
+    height: 14px !important;
     padding: 0;
-    border-radius: 100%;
-    border: 2px solid #FF651C !important;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px);
+    box-shadow: inset 0 0 0 2px #6C5CE7;
+    transition: all 0.3s ease;
     text-indent: -9999px;
+    cursor: pointer;
+    outline: none;
+}
+
+.slick-dots li button:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 6px #6C5CE7;
 }
 
 .slick-dots li.slick-active button {
-    background-color: #FF651C;
+    background: #6C5CE7;
+    box-shadow: 0 0 8px #6C5CE7;
 }
