@@ -41,16 +41,13 @@ const Banner = () => {
           />
         </div>
         <p className="text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%]">
-          As a MERN stack developer, I am committed to building high-quality web
-          applications that meet the needs of my clients. With years of
-          experience in full-stack web development, I specialize in using
-          React.js, Next.js, TypeScript, MongoDB, Express.js, and Node.js to
-          create scalable and robust web applications.
+          As a MERN stack developer, I craft high-quality, scalable web applications tailored to client needs. With extensive experience in full-stack development, I specialize in technologies like React.js, Next.js, TypeScript, MongoDB, Express.js, and Node.js—delivering robust, modern solutions that drive performance and user satisfaction.
         </p>
+
 
         <div className="flex items-center translate-y-[-60%] sm:translate-y-[-0%]">
           <a
-          href="https://drive.google.com/file/d/1hrpCpHSg7fEEL9rLsdg72hQ9etpXwmDp/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1hrpCpHSg7fEEL9rLsdg72hQ9etpXwmDp/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >

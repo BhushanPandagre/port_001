@@ -32,9 +32,12 @@
 }
 
 @keyframes left-right-moving {
-    0%, 100% {
+
+    0%,
+    100% {
         left: 0%;
     }
+
     50% {
         left: 93%;
     }

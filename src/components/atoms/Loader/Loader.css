@@ -36,6 +36,7 @@
     border-top: 5px #a864ff solid;
     animation: purple_spin 1.5s linear infinite;
 }
+
 .loading_purple:after,
 .loading_purple:before {
     content: "";
@@ -44,12 +45,14 @@
     border-radius: 50%;
     box-shadow: 0 0 12px #a864ff;
 }
+
 .loading_purple:after {
     width: 10px;
     height: 10px;
     right: 5px;
     top: 10px;
 }
+
 .loading_purple:before {
     width: 5px;
     height: 5px;
@@ -64,6 +67,7 @@
     border-top: 5px #00f2fe solid;
     animation: cyan_spin 1.5s linear infinite;
 }
+
 .loading_cyan:after,
 .loading_cyan:before {
     content: "";
@@ -72,12 +76,14 @@
     border-radius: 50%;
     box-shadow: 0 0 12px #00f2fe;
 }
+
 .loading_cyan:after {
     width: 10px;
     height: 10px;
     right: 5px;
     top: 10px;
 }
+
 .loading_cyan:before {
     width: 5px;
     height: 5px;
@@ -92,6 +98,7 @@
     border-top: 5px #ff6fd8 solid;
     animation: pink_spin 1.5s linear infinite;
 }
+
 .loading_pink:after,
 .loading_pink:before {
     content: "";
@@ -100,12 +107,14 @@
     border-radius: 50%;
     box-shadow: 0 0 12px #ff6fd8;
 }
+
 .loading_pink:after {
     width: 10px;
     height: 10px;
     right: 5px;
     top: 10px;
 }
+
 .loading_pink:before {
     width: 5px;
     height: 5px;
@@ -115,14 +124,31 @@
 
 /* Keyframes */
 @keyframes purple_spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
+
 @keyframes cyan_spin {
-    0% { transform: rotate(240deg); }
-    100% { transform: rotate(600deg); }
+    0% {
+        transform: rotate(240deg);
+    }
+
+    100% {
+        transform: rotate(600deg);
+    }
 }
+
 @keyframes pink_spin {
-    0% { transform: rotate(120deg); }
-    100% { transform: rotate(480deg); }
+    0% {
+        transform: rotate(120deg);
+    }
+
+    100% {
+        transform: rotate(480deg);
+    }
 }
